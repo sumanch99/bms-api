@@ -28801,4 +28801,709 @@ Identify and stop the process that's listening on port 8080 or configure this ap
  [INFO ] 2021-07-182 17:22:16 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.AccountDaoImpl - START
  [INFO ] 2021-07-182 17:22:16 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.AccountDaoImpl - END
  [INFO ] 2021-07-182 17:22:16 [http-nio-8080-exec-5] com.cts.bms.bmsapi.controller.AdminController - END
+ [INFO ] 2021-07-182 18:02:18 [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+ [INFO ] 2021-07-182 18:02:18 [restartedMain] org.springframework.boot.StartupInfoLogger - Starting BankManagementSystemApplication using Java 15.0.2 on sch with PID 14040 (E:\final\bmsapi\target\classes started by USER in E:\final\bmsapi)
+ [INFO ] 2021-07-182 18:02:18 [restartedMain] org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+ [INFO ] 2021-07-182 18:02:19 [restartedMain] org.springframework.boot.logging.DeferredLog - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ [INFO ] 2021-07-182 18:02:19 [restartedMain] org.springframework.boot.logging.DeferredLog - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ [INFO ] 2021-07-182 18:02:29 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ [INFO ] 2021-07-182 18:02:30 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:02:30 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting service [Tomcat]
+ [INFO ] 2021-07-182 18:02:30 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.48]
+ [INFO ] 2021-07-182 18:02:30 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing Spring embedded WebApplicationContext
+ [INFO ] 2021-07-182 18:02:30 [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11587 ms
+ [INFO ] 2021-07-182 18:02:32 [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27b3b2d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@52a4cfa7, org.springframework.security.web.header.HeaderWriterFilter@c0056b3, org.springframework.web.filter.CorsFilter@71f20b47, org.springframework.security.web.authentication.logout.LogoutFilter@6cf42e51, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@24deb7a9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@220e1bff, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4d1bf55a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5310119b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60c84dbc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ac6bc72, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32674792, org.springframework.security.web.session.SessionManagementFilter@7d348a79, org.springframework.security.web.access.ExceptionTranslationFilter@7fda64a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f874227]
+ [INFO ] 2021-07-182 18:02:33 [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ [INFO ] 2021-07-182 18:02:33 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:02:33 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ [INFO ] 2021-07-182 18:02:33 [restartedMain] org.springframework.boot.StartupInfoLogger - Started BankManagementSystemApplication in 17.58 seconds (JVM running for 24.523)
+ [INFO ] 2021-07-182 18:10:26 [restartedMain] org.springframework.boot.StartupInfoLogger - Starting BankManagementSystemApplication using Java 15.0.2 on sch with PID 14040 (E:\final\bmsapi\target\classes started by USER in E:\final\bmsapi)
+ [INFO ] 2021-07-182 18:10:26 [restartedMain] org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+ [INFO ] 2021-07-182 18:10:26 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ [INFO ] 2021-07-182 18:10:26 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:10:26 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting service [Tomcat]
+ [INFO ] 2021-07-182 18:10:26 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.48]
+ [INFO ] 2021-07-182 18:10:26 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing Spring embedded WebApplicationContext
+ [INFO ] 2021-07-182 18:10:26 [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 766 ms
+ [DEBUG] 2021-07-182 18:10:27 [restartedMain] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - 42 mappings in 'requestMappingHandlerMapping'
+ [DEBUG] 2021-07-182 18:10:27 [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ [INFO ] 2021-07-182 18:10:27 [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c9a2675, org.springframework.security.web.context.SecurityContextPersistenceFilter@33a97d98, org.springframework.security.web.header.HeaderWriterFilter@1305b38c, org.springframework.web.filter.CorsFilter@1ec35399, org.springframework.security.web.authentication.logout.LogoutFilter@608a0b2e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@684d57c3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3e571b7a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@363ced2b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4360bc92, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@660809d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@582f4f49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@344d5760, org.springframework.security.web.session.SessionManagementFilter@4d556967, org.springframework.security.web.access.ExceptionTranslationFilter@7ec5762c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13876a00]
+ [DEBUG] 2021-07-182 18:10:27 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+ [DEBUG] 2021-07-182 18:10:27 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+ [INFO ] 2021-07-182 18:10:27 [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ [INFO ] 2021-07-182 18:10:27 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:10:27 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ [INFO ] 2021-07-182 18:10:27 [restartedMain] org.springframework.boot.StartupInfoLogger - Started BankManagementSystemApplication in 1.62 seconds (JVM running for 498.776)
+ [INFO ] 2021-07-182 18:10:27 [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ [INFO ] 2021-07-182 18:10:55 [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+ [INFO ] 2021-07-182 18:10:55 [restartedMain] org.springframework.boot.StartupInfoLogger - Starting BankManagementSystemApplication using Java 15.0.2 on sch with PID 2128 (E:\final\bmsapi\target\classes started by USER in E:\final\bmsapi)
+ [INFO ] 2021-07-182 18:10:55 [restartedMain] org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+ [INFO ] 2021-07-182 18:10:56 [restartedMain] org.springframework.boot.logging.DeferredLog - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ [INFO ] 2021-07-182 18:10:56 [restartedMain] org.springframework.boot.logging.DeferredLog - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ [INFO ] 2021-07-182 18:11:03 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ [INFO ] 2021-07-182 18:11:03 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:11:03 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting service [Tomcat]
+ [INFO ] 2021-07-182 18:11:03 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.48]
+ [INFO ] 2021-07-182 18:11:03 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing Spring embedded WebApplicationContext
+ [INFO ] 2021-07-182 18:11:03 [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7600 ms
+ [DEBUG] 2021-07-182 18:11:04 [restartedMain] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - 42 mappings in 'requestMappingHandlerMapping'
+ [DEBUG] 2021-07-182 18:11:04 [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ [INFO ] 2021-07-182 18:11:04 [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@593bf3a2, org.springframework.security.web.context.SecurityContextPersistenceFilter@c32311b, org.springframework.security.web.header.HeaderWriterFilter@5f5bd6be, org.springframework.web.filter.CorsFilter@15d6a777, org.springframework.security.web.authentication.logout.LogoutFilter@23ab9540, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@227b4b3a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@49beaa18, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@186c0f6f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2d93844a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@323f5dc2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b061680, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33d7bafb, org.springframework.security.web.session.SessionManagementFilter@6044d00e, org.springframework.security.web.access.ExceptionTranslationFilter@591f61df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@135c8d2d]
+ [DEBUG] 2021-07-182 18:11:04 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+ [DEBUG] 2021-07-182 18:11:04 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+ [WARN ] 2021-07-182 18:11:05 [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+ [INFO ] 2021-07-182 18:11:05 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+ [WARN ] 2021-07-182 18:11:05 [restartedMain] org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ [INFO ] 2021-07-182 18:11:05 [restartedMain] org.apache.juli.logging.DirectJDKLog - Pausing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:11:05 [restartedMain] org.apache.juli.logging.DirectJDKLog - Stopping service [Tomcat]
+ [INFO ] 2021-07-182 18:11:05 [restartedMain] org.apache.juli.logging.DirectJDKLog - Stopping ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:11:05 [restartedMain] org.apache.juli.logging.DirectJDKLog - Destroying ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:11:05 [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ [ERROR] 2021-07-182 18:11:05 [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ [INFO ] 2021-07-182 18:13:44 [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+ [INFO ] 2021-07-182 18:13:44 [restartedMain] org.springframework.boot.StartupInfoLogger - Starting BankManagementSystemApplication using Java 15.0.2 on sch with PID 13820 (E:\final\bmsapi\target\classes started by USER in E:\final\bmsapi)
+ [INFO ] 2021-07-182 18:13:44 [restartedMain] org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+ [INFO ] 2021-07-182 18:13:44 [restartedMain] org.springframework.boot.logging.DeferredLog - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ [INFO ] 2021-07-182 18:13:44 [restartedMain] org.springframework.boot.logging.DeferredLog - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ [INFO ] 2021-07-182 18:13:48 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ [INFO ] 2021-07-182 18:13:49 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:13:49 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting service [Tomcat]
+ [INFO ] 2021-07-182 18:13:49 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.48]
+ [INFO ] 2021-07-182 18:13:49 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing Spring embedded WebApplicationContext
+ [INFO ] 2021-07-182 18:13:49 [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4483 ms
+ [DEBUG] 2021-07-182 18:13:50 [restartedMain] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - 42 mappings in 'requestMappingHandlerMapping'
+ [DEBUG] 2021-07-182 18:13:51 [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ [INFO ] 2021-07-182 18:13:51 [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b8974ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@429c658, org.springframework.security.web.header.HeaderWriterFilter@843939b, org.springframework.web.filter.CorsFilter@41aa6aec, org.springframework.security.web.authentication.logout.LogoutFilter@746c2c5a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a9f7089, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5cebc61a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2bd3810e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6580d874, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7536e73e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54a1ae07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fb36ce7, org.springframework.security.web.session.SessionManagementFilter@60fd6289, org.springframework.security.web.access.ExceptionTranslationFilter@618f87f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6da6b321]
+ [DEBUG] 2021-07-182 18:13:51 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+ [DEBUG] 2021-07-182 18:13:51 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+ [WARN ] 2021-07-182 18:13:51 [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+ [INFO ] 2021-07-182 18:13:51 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+ [WARN ] 2021-07-182 18:13:51 [restartedMain] org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ [INFO ] 2021-07-182 18:13:51 [restartedMain] org.apache.juli.logging.DirectJDKLog - Pausing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:13:51 [restartedMain] org.apache.juli.logging.DirectJDKLog - Stopping service [Tomcat]
+ [INFO ] 2021-07-182 18:13:51 [restartedMain] org.apache.juli.logging.DirectJDKLog - Stopping ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:13:51 [restartedMain] org.apache.juli.logging.DirectJDKLog - Destroying ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:13:51 [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ [ERROR] 2021-07-182 18:13:51 [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ [INFO ] 2021-07-182 18:14:23 [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+ [INFO ] 2021-07-182 18:14:24 [restartedMain] org.springframework.boot.StartupInfoLogger - Starting BankManagementSystemApplication using Java 15.0.2 on sch with PID 1068 (E:\final\bmsapi\target\classes started by USER in E:\final\bmsapi)
+ [INFO ] 2021-07-182 18:14:24 [restartedMain] org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+ [INFO ] 2021-07-182 18:14:24 [restartedMain] org.springframework.boot.logging.DeferredLog - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ [INFO ] 2021-07-182 18:14:24 [restartedMain] org.springframework.boot.logging.DeferredLog - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ [INFO ] 2021-07-182 18:14:28 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ [INFO ] 2021-07-182 18:14:28 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:14:28 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting service [Tomcat]
+ [INFO ] 2021-07-182 18:14:28 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.48]
+ [INFO ] 2021-07-182 18:14:29 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing Spring embedded WebApplicationContext
+ [INFO ] 2021-07-182 18:14:29 [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5028 ms
+ [DEBUG] 2021-07-182 18:14:30 [restartedMain] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - 42 mappings in 'requestMappingHandlerMapping'
+ [DEBUG] 2021-07-182 18:14:31 [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ [INFO ] 2021-07-182 18:14:31 [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6688e2ef, org.springframework.security.web.context.SecurityContextPersistenceFilter@64f5dda4, org.springframework.security.web.header.HeaderWriterFilter@7a9f639, org.springframework.web.filter.CorsFilter@2316617f, org.springframework.security.web.authentication.logout.LogoutFilter@5221918a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5825176a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@139fd905, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6037c9bc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7bb38b23, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35cd6b3a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d58180f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7478c502, org.springframework.security.web.session.SessionManagementFilter@28cf0168, org.springframework.security.web.access.ExceptionTranslationFilter@40805a0d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14cfde6a]
+ [DEBUG] 2021-07-182 18:14:31 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+ [DEBUG] 2021-07-182 18:14:31 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+ [WARN ] 2021-07-182 18:14:31 [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+ [INFO ] 2021-07-182 18:14:31 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+ [WARN ] 2021-07-182 18:14:31 [restartedMain] org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ [INFO ] 2021-07-182 18:14:31 [restartedMain] org.apache.juli.logging.DirectJDKLog - Pausing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:14:31 [restartedMain] org.apache.juli.logging.DirectJDKLog - Stopping service [Tomcat]
+ [INFO ] 2021-07-182 18:14:31 [restartedMain] org.apache.juli.logging.DirectJDKLog - Stopping ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:14:31 [restartedMain] org.apache.juli.logging.DirectJDKLog - Destroying ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:14:31 [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ [ERROR] 2021-07-182 18:14:31 [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ [INFO ] 2021-07-182 18:14:45 [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+ [INFO ] 2021-07-182 18:14:46 [restartedMain] org.springframework.boot.StartupInfoLogger - Starting BankManagementSystemApplication using Java 15.0.2 on sch with PID 6964 (E:\final\bmsapi\target\classes started by USER in E:\final\bmsapi)
+ [INFO ] 2021-07-182 18:14:46 [restartedMain] org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+ [INFO ] 2021-07-182 18:14:46 [restartedMain] org.springframework.boot.logging.DeferredLog - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ [INFO ] 2021-07-182 18:14:46 [restartedMain] org.springframework.boot.logging.DeferredLog - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ [INFO ] 2021-07-182 18:14:51 [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ [INFO ] 2021-07-182 18:14:51 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:14:51 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting service [Tomcat]
+ [INFO ] 2021-07-182 18:14:51 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.48]
+ [INFO ] 2021-07-182 18:14:51 [restartedMain] org.apache.juli.logging.DirectJDKLog - Initializing Spring embedded WebApplicationContext
+ [INFO ] 2021-07-182 18:14:51 [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5127 ms
+ [DEBUG] 2021-07-182 18:14:53 [restartedMain] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - 42 mappings in 'requestMappingHandlerMapping'
+ [DEBUG] 2021-07-182 18:14:54 [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ [INFO ] 2021-07-182 18:14:54 [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f50c3ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@31ea2498, org.springframework.security.web.header.HeaderWriterFilter@6756b1c6, org.springframework.web.filter.CorsFilter@60789f1d, org.springframework.security.web.authentication.logout.LogoutFilter@12d40ca6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ed4c3a8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3f18bac3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3d793ed6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@74fb2f4d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b386755, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9e53329, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d0f223, org.springframework.security.web.session.SessionManagementFilter@428c2ea9, org.springframework.security.web.access.ExceptionTranslationFilter@e4c0119, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c2133c7]
+ [DEBUG] 2021-07-182 18:14:54 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+ [DEBUG] 2021-07-182 18:14:54 [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+ [WARN ] 2021-07-182 18:14:54 [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+ [INFO ] 2021-07-182 18:14:54 [restartedMain] org.apache.juli.logging.DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+ [WARN ] 2021-07-182 18:14:54 [restartedMain] org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+ [INFO ] 2021-07-182 18:14:54 [restartedMain] org.apache.juli.logging.DirectJDKLog - Pausing ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:14:54 [restartedMain] org.apache.juli.logging.DirectJDKLog - Stopping service [Tomcat]
+ [INFO ] 2021-07-182 18:14:54 [restartedMain] org.apache.juli.logging.DirectJDKLog - Stopping ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:14:54 [restartedMain] org.apache.juli.logging.DirectJDKLog - Destroying ProtocolHandler ["http-nio-8080"]
+ [INFO ] 2021-07-182 18:14:54 [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ [ERROR] 2021-07-182 18:14:54 [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+ [INFO ] 2021-07-182 18:15:16 [main] org.springframework.test.context.support.AbstractTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.bms.bmsapi.BankManagementSystemApplicationTests], using SpringBootContextLoader
+ [INFO ] 2021-07-182 18:15:16 [main] org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.bms.bmsapi.BankManagementSystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+ [INFO ] 2021-07-182 18:15:16 [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.bms.bmsapi.BankManagementSystemApplicationTests]: BankManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ [INFO ] 2021-07-182 18:15:17 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.bms.bmsapi.BankManagementSystemApplication for test class com.cts.bms.bmsapi.BankManagementSystemApplicationTests
+ [INFO ] 2021-07-182 18:15:17 [main] org.springframework.test.context.support.AbstractTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+ [INFO ] 2021-07-182 18:15:17 [main] org.springframework.test.context.support.AbstractTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@15051a0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1162410a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@b09fac1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@62df0ff3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@61019f59, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62e8f862, org.springframework.test.context.transaction.TransactionalTestExecutionListener@26f3d90c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3c49fab6, org.springframework.test.context.event.EventPublishingTestExecutionListener@515f4131, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@74518890, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@4c5204af, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3f3ddbd9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14c053c6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c2d4cc6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@30865a90, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6134ac4a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@777c9dc9]
+ [INFO ] 2021-07-182 18:15:17 [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+ [INFO ] 2021-07-182 18:15:18 [main] org.springframework.boot.StartupInfoLogger - Starting BankManagementSystemApplicationTests using Java 15.0.2 on sch with PID 13020 (started by USER in E:\final\bmsapi)
+ [INFO ] 2021-07-182 18:15:18 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+ [DEBUG] 2021-07-182 18:15:18 [main] org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@69c93ca4
+ [DEBUG] 2021-07-182 18:15:23 [main] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - 42 mappings in 'requestMappingHandlerMapping'
+ [DEBUG] 2021-07-182 18:15:24 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ [INFO ] 2021-07-182 18:15:24 [main] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56a05324, org.springframework.security.web.context.SecurityContextPersistenceFilter@790d8fdd, org.springframework.security.web.header.HeaderWriterFilter@6db328f8, org.springframework.web.filter.CorsFilter@11e71181, org.springframework.security.web.authentication.logout.LogoutFilter@1a8e9ed9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19fbc594, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4b87760e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@342beaf6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@26b3c9a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a6c0f38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a90e2c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@222acad, org.springframework.security.web.session.SessionManagementFilter@b2c4a8b, org.springframework.security.web.access.ExceptionTranslationFilter@619c93ca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39449465]
+ [DEBUG] 2021-07-182 18:15:25 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+ [DEBUG] 2021-07-182 18:15:25 [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+ [INFO ] 2021-07-182 18:15:25 [main] org.springframework.boot.StartupInfoLogger - Started BankManagementSystemApplicationTests in 8.343 seconds (JVM running for 13.493)
+ [DEBUG] 2021-07-182 18:15:28 [SpringApplicationShutdownHook] org.springframework.context.support.AbstractApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@69c93ca4, started on Thu Jul 01 18:15:18 IST 2021
+ [INFO ] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [INFO ] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+ [DEBUG] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+ [DEBUG] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+ [DEBUG] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+ [DEBUG] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1f03ee86
+ [DEBUG] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@61d88649
+ [DEBUG] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+ [INFO ] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed initialization in 4 ms
+ [DEBUG] 2021-07-182 18:18:25 [http-nio-8080-exec-1] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [DEBUG] 2021-07-182 18:18:25 [http-nio-8080-exec-2] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [INFO ] 2021-07-182 18:18:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:18:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:18:25 [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ [INFO ] 2021-07-182 18:18:31 [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ [INFO ] 2021-07-182 18:18:32 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:18:32 [http-nio-8080-exec-2] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [WARN ] 2021-07-182 18:18:32 [http-nio-8080-exec-2] org.apache.juli.logging.DirectJDKLog - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [167] milliseconds.
+ [DEBUG] 2021-07-182 18:18:32 [http-nio-8080-exec-2] org.springframework.core.log.LogFormatUtils - GET "/admin/log-in", parameters={}
+ [DEBUG] 2021-07-182 18:18:32 [http-nio-8080-exec-2] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [INFO ] 2021-07-182 18:18:32 [http-nio-8080-exec-2] com.cts.bms.bmsapi.controller.LoginController - ADMIN LOGIN
+ [DEBUG] 2021-07-182 18:18:32 [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:18:32 [http-nio-8080-exec-2] org.springframework.core.log.LogFormatUtils - Writing [{data=null, message=Login successfull, status=200}]
+ [DEBUG] 2021-07-182 18:18:32 [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:18:47 [http-nio-8080-exec-5] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#viewBranches()
+ [DEBUG] 2021-07-182 18:18:47 [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#viewBranches()
+ [INFO ] 2021-07-182 18:18:47 [http-nio-8080-exec-6] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:18:47 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:18:47 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:18:47 [http-nio-8080-exec-6] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:18:47 [http-nio-8080-exec-6] org.springframework.core.log.LogFormatUtils - GET "/admin/view-all-branches", parameters={}
+ [DEBUG] 2021-07-182 18:18:47 [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#viewBranches()
+ [INFO ] 2021-07-182 18:18:47 [http-nio-8080-exec-6] com.cts.bms.bmsapi.controller.BranchController - START
+ [INFO ] 2021-07-182 18:18:47 [http-nio-8080-exec-6] com.cts.bms.bmsapi.service.BranchService - GET ALL BRANCHES
+ [INFO ] 2021-07-182 18:18:47 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.BranchDaoImpl - START
+ [INFO ] 2021-07-182 18:18:47 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.BranchDaoImpl - END
+ [INFO ] 2021-07-182 18:18:47 [http-nio-8080-exec-6] com.cts.bms.bmsapi.controller.BranchController - END
+ [DEBUG] 2021-07-182 18:18:47 [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:18:47 [http-nio-8080-exec-6] org.springframework.core.log.LogFormatUtils - Writing [{data=[Branch [ifscCode=UBIB0564652, branchName=Bangalore, address=Karnataka, pincode=569872, branch (truncated)...]
+ [DEBUG] 2021-07-182 18:18:47 [http-nio-8080-exec-6] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:18:56 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#depositToBranch(String, double)
+ [DEBUG] 2021-07-182 18:18:56 [http-nio-8080-exec-7] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#depositToBranch(String, double)
+ [INFO ] 2021-07-182 18:18:56 [http-nio-8080-exec-7] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:18:56 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:18:56 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:18:56 [http-nio-8080-exec-7] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:18:56 [http-nio-8080-exec-7] org.springframework.core.log.LogFormatUtils - PATCH "/admin/deposit-to-branch/BOIX0454545", parameters={}
+ [DEBUG] 2021-07-182 18:18:56 [http-nio-8080-exec-7] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#depositToBranch(String, double)
+ [DEBUG] 2021-07-182 18:18:56 [http-nio-8080-exec-7] org.springframework.core.log.LogFormatUtils - Read "application/json;charset=UTF-8" to [10000.0]
+ [INFO ] 2021-07-182 18:18:56 [http-nio-8080-exec-7] com.cts.bms.bmsapi.controller.BranchController - START
+ [INFO ] 2021-07-182 18:18:56 [http-nio-8080-exec-7] com.cts.bms.bmsapi.service.BranchService - START
+ [INFO ] 2021-07-182 18:18:56 [http-nio-8080-exec-7] com.cts.bms.bmsapi.service.BranchService - END
+ [INFO ] 2021-07-182 18:18:56 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.BranchDaoImpl - START
+ [INFO ] 2021-07-182 18:18:57 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.BranchDaoImpl - END
+ [WARN ] 2021-07-182 18:18:57 [http-nio-8080-exec-7] com.cts.bms.bmsapi.controller.BranchController - Amount successfully deposited to branch
+ [DEBUG] 2021-07-182 18:18:57 [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:18:57 [http-nio-8080-exec-7] org.springframework.core.log.LogFormatUtils - Writing [{data=null, message=Amount successfully deposited to branch, status=200}]
+ [DEBUG] 2021-07-182 18:18:57 [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:18:57 [http-nio-8080-exec-8] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#viewBranches()
+ [INFO ] 2021-07-182 18:18:57 [http-nio-8080-exec-8] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:18:57 [http-nio-8080-exec-8] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:18:57 [http-nio-8080-exec-8] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:18:58 [http-nio-8080-exec-8] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:18:58 [http-nio-8080-exec-8] org.springframework.core.log.LogFormatUtils - GET "/admin/view-all-branches", parameters={}
+ [DEBUG] 2021-07-182 18:18:58 [http-nio-8080-exec-8] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#viewBranches()
+ [INFO ] 2021-07-182 18:18:58 [http-nio-8080-exec-8] com.cts.bms.bmsapi.controller.BranchController - START
+ [INFO ] 2021-07-182 18:18:58 [http-nio-8080-exec-8] com.cts.bms.bmsapi.service.BranchService - GET ALL BRANCHES
+ [INFO ] 2021-07-182 18:18:58 [http-nio-8080-exec-8] com.cts.bms.bmsapi.dao.BranchDaoImpl - START
+ [INFO ] 2021-07-182 18:18:58 [http-nio-8080-exec-8] com.cts.bms.bmsapi.dao.BranchDaoImpl - END
+ [INFO ] 2021-07-182 18:18:58 [http-nio-8080-exec-8] com.cts.bms.bmsapi.controller.BranchController - END
+ [DEBUG] 2021-07-182 18:18:58 [http-nio-8080-exec-8] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:18:58 [http-nio-8080-exec-8] org.springframework.core.log.LogFormatUtils - Writing [{data=[Branch [ifscCode=UBIB0564652, branchName=Bangalore, address=Karnataka, pincode=569872, branch (truncated)...]
+ [DEBUG] 2021-07-182 18:18:58 [http-nio-8080-exec-8] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:20:21 [http-nio-8080-exec-10] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#viewBranches()
+ [INFO ] 2021-07-182 18:20:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:20:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:20:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:20:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:20:21 [http-nio-8080-exec-10] org.springframework.core.log.LogFormatUtils - GET "/admin/view-all-branches", parameters={}
+ [DEBUG] 2021-07-182 18:20:21 [http-nio-8080-exec-10] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#viewBranches()
+ [INFO ] 2021-07-182 18:20:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.controller.BranchController - START
+ [INFO ] 2021-07-182 18:20:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.service.BranchService - GET ALL BRANCHES
+ [INFO ] 2021-07-182 18:20:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.BranchDaoImpl - START
+ [INFO ] 2021-07-182 18:20:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.BranchDaoImpl - END
+ [INFO ] 2021-07-182 18:20:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.controller.BranchController - END
+ [DEBUG] 2021-07-182 18:20:21 [http-nio-8080-exec-10] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:20:21 [http-nio-8080-exec-10] org.springframework.core.log.LogFormatUtils - Writing [{data=[Branch [ifscCode=UBIB0564652, branchName=Bangalore, address=Karnataka, pincode=569872, branch (truncated)...]
+ [DEBUG] 2021-07-182 18:20:21 [http-nio-8080-exec-10] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:20:24 [http-nio-8080-exec-1] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#viewBranches()
+ [INFO ] 2021-07-182 18:20:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:20:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:20:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:20:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:20:25 [http-nio-8080-exec-1] org.springframework.core.log.LogFormatUtils - GET "/admin/view-all-branches", parameters={}
+ [DEBUG] 2021-07-182 18:20:25 [http-nio-8080-exec-1] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.BranchController#viewBranches()
+ [INFO ] 2021-07-182 18:20:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.controller.BranchController - START
+ [INFO ] 2021-07-182 18:20:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.service.BranchService - GET ALL BRANCHES
+ [INFO ] 2021-07-182 18:20:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.BranchDaoImpl - START
+ [INFO ] 2021-07-182 18:20:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.BranchDaoImpl - END
+ [INFO ] 2021-07-182 18:20:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.controller.BranchController - END
+ [DEBUG] 2021-07-182 18:20:25 [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:20:25 [http-nio-8080-exec-1] org.springframework.core.log.LogFormatUtils - Writing [{data=[Branch [ifscCode=UBIB0564652, branchName=Bangalore, address=Karnataka, pincode=569872, branch (truncated)...]
+ [DEBUG] 2021-07-182 18:20:25 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:22:19 [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AdminController#getAllCustomers()
+ [DEBUG] 2021-07-182 18:22:19 [http-nio-8080-exec-5] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AdminController#getAllCustomers()
+ [INFO ] 2021-07-182 18:22:19 [http-nio-8080-exec-5] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:22:19 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:22:19 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:22:19 [http-nio-8080-exec-5] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:22:19 [http-nio-8080-exec-5] org.springframework.core.log.LogFormatUtils - GET "/admin/customer-list", parameters={}
+ [DEBUG] 2021-07-182 18:22:19 [http-nio-8080-exec-5] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AdminController#getAllCustomers()
+ [INFO ] 2021-07-182 18:22:19 [http-nio-8080-exec-5] com.cts.bms.bmsapi.controller.AdminController - START
+ [INFO ] 2021-07-182 18:22:19 [http-nio-8080-exec-5] com.cts.bms.bmsapi.service.AdminService - GET ALL CUSTOMERS
+ [INFO ] 2021-07-182 18:22:19 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:22:20 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:22:20 [http-nio-8080-exec-5] com.cts.bms.bmsapi.controller.AdminController - END
+ [DEBUG] 2021-07-182 18:22:20 [http-nio-8080-exec-5] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:22:20 [http-nio-8080-exec-5] org.springframework.core.log.LogFormatUtils - Writing [{data=[Customer [userId=sd2, password=$2a$10$gdt5wMAghJVR62gUGjDzuOa1aodwhuQHzuGzl48zSEQdgH8A0LmFy,  (truncated)...]
+ [DEBUG] 2021-07-182 18:22:20 [http-nio-8080-exec-5] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:27:58 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [DEBUG] 2021-07-182 18:27:58 [http-nio-8080-exec-7] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [INFO ] 2021-07-182 18:27:58 [http-nio-8080-exec-7] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:27:58 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-7] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-7] org.springframework.core.log.LogFormatUtils - GET "/admin/log-in", parameters={}
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-7] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-7] com.cts.bms.bmsapi.controller.LoginController - ADMIN LOGIN
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-7] org.springframework.core.log.LogFormatUtils - Writing [{data=null, message=Login successfull, status=200}]
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-8] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AdminController#getAllCustomers()
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-8] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-8] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-8] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-8] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-8] org.springframework.core.log.LogFormatUtils - GET "/admin/customer-list", parameters={}
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-8] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AdminController#getAllCustomers()
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-8] com.cts.bms.bmsapi.controller.AdminController - START
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-8] com.cts.bms.bmsapi.service.AdminService - GET ALL CUSTOMERS
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-8] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-8] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:27:59 [http-nio-8080-exec-8] com.cts.bms.bmsapi.controller.AdminController - END
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-8] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-8] org.springframework.core.log.LogFormatUtils - Writing [{data=[Customer [userId=sd2, password=$2a$10$gdt5wMAghJVR62gUGjDzuOa1aodwhuQHzuGzl48zSEQdgH8A0LmFy,  (truncated)...]
+ [DEBUG] 2021-07-182 18:27:59 [http-nio-8080-exec-8] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-9] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-9] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-9] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-9] org.springframework.core.log.LogFormatUtils - GET "/admin/log-in", parameters={}
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-9] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-9] com.cts.bms.bmsapi.controller.LoginController - ADMIN LOGIN
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-9] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-9] org.springframework.core.log.LogFormatUtils - Writing [{data=null, message=Login successfull, status=200}]
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-9] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-10] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AdminController#getAllCustomers()
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-10] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-10] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-10] org.springframework.core.log.LogFormatUtils - GET "/admin/customer-list", parameters={}
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-10] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AdminController#getAllCustomers()
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-10] com.cts.bms.bmsapi.controller.AdminController - START
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-10] com.cts.bms.bmsapi.service.AdminService - GET ALL CUSTOMERS
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:28:05 [http-nio-8080-exec-10] com.cts.bms.bmsapi.controller.AdminController - END
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-10] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-10] org.springframework.core.log.LogFormatUtils - Writing [{data=[Customer [userId=sd2, password=$2a$10$gdt5wMAghJVR62gUGjDzuOa1aodwhuQHzuGzl48zSEQdgH8A0LmFy,  (truncated)...]
+ [DEBUG] 2021-07-182 18:28:05 [http-nio-8080-exec-10] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:28:27 [http-nio-8080-exec-2] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#customerLogin()
+ [DEBUG] 2021-07-182 18:28:27 [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#customerLogin()
+ [INFO ] 2021-07-182 18:28:27 [http-nio-8080-exec-3] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:28:27 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:28:27 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:28:27 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:28:28 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:28:28 [http-nio-8080-exec-3] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:28:28 [http-nio-8080-exec-3] org.springframework.core.log.LogFormatUtils - GET "/customer/log-in", parameters={}
+ [DEBUG] 2021-07-182 18:28:28 [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#customerLogin()
+ [INFO ] 2021-07-182 18:28:28 [http-nio-8080-exec-3] com.cts.bms.bmsapi.controller.LoginController - CUSTOMER LOGIN
+ [DEBUG] 2021-07-182 18:28:28 [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:28:28 [http-nio-8080-exec-3] org.springframework.core.log.LogFormatUtils - Writing [{data=null, message=Login successfull, status=200}]
+ [DEBUG] 2021-07-182 18:28:28 [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:29:10 [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [DEBUG] 2021-07-182 18:29:10 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:29:10 [http-nio-8080-exec-4] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:29:10 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:29:10 [http-nio-8080-exec-4] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:29:10 [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:29:10 [http-nio-8080-exec-4] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:29:10 [http-nio-8080-exec-4] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:29:19 [http-nio-8080-exec-8] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoanController#getAllLoans(String)
+ [DEBUG] 2021-07-182 18:29:19 [http-nio-8080-exec-9] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoanController#getAllLoans(String)
+ [INFO ] 2021-07-182 18:29:19 [http-nio-8080-exec-9] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:29:19 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:29:19 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:29:19 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:19 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:19 [http-nio-8080-exec-9] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:29:19 [http-nio-8080-exec-9] org.springframework.core.log.LogFormatUtils - GET "/customer/view-my-loans/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:29:19 [http-nio-8080-exec-9] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoanController#getAllLoans(String)
+ [INFO ] 2021-07-182 18:29:19 [http-nio-8080-exec-9] com.cts.bms.bmsapi.controller.LoanController - START
+ [INFO ] 2021-07-182 18:29:19 [http-nio-8080-exec-9] com.cts.bms.bmsapi.service.AdminService - GET ALL APPROVED LOANS
+ [INFO ] 2021-07-182 18:29:19 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:20 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:20 [http-nio-8080-exec-9] com.cts.bms.bmsapi.controller.LoanController - END
+ [DEBUG] 2021-07-182 18:29:20 [http-nio-8080-exec-9] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:29:20 [http-nio-8080-exec-9] org.springframework.core.log.LogFormatUtils - Writing [{data=[Loan [loan_id=10, loanCode=CAR-LOAN, accNo=1000000005, amount=500000.0, gurantorAccNo=1000000 (truncated)...]
+ [DEBUG] 2021-07-182 18:29:20 [http-nio-8080-exec-9] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-10] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.CustomerController#viewAllPlans()
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-1] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-2] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.CustomerController#viewAllPlans()
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-1] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-1] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-1] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-1] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-2] org.springframework.core.log.LogFormatUtils - GET "/customer/view-interest-plans", parameters={}
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-2] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.CustomerController#viewAllPlans()
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.controller.CustomerController - START
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.service.PlanService - View Deatils
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:29:25 [http-nio-8080-exec-2] com.cts.bms.bmsapi.controller.CustomerController - END
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-2] org.springframework.core.log.LogFormatUtils - Writing [{data=[InterestRate [plan=FD, rate=8.5], InterestRate [plan=RD, rate=5.5], InterestRate [plan=HOME-L (truncated)...]
+ [DEBUG] 2021-07-182 18:29:25 [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:29:30 [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoanController#getAllLoans(String)
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:29:30 [http-nio-8080-exec-6] org.springframework.core.log.LogFormatUtils - GET "/customer/view-my-loans/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:29:30 [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoanController#getAllLoans(String)
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.controller.LoanController - START
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.service.AdminService - GET ALL APPROVED LOANS
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:30 [http-nio-8080-exec-6] com.cts.bms.bmsapi.controller.LoanController - END
+ [DEBUG] 2021-07-182 18:29:30 [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:29:30 [http-nio-8080-exec-6] org.springframework.core.log.LogFormatUtils - Writing [{data=[Loan [loan_id=10, loanCode=CAR-LOAN, accNo=1000000005, amount=500000.0, gurantorAccNo=1000000 (truncated)...]
+ [DEBUG] 2021-07-182 18:29:30 [http-nio-8080-exec-6] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:29:31 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:29:31 [http-nio-8080-exec-4] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:29:31 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:29:31 [http-nio-8080-exec-4] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:29:31 [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:29:31 [http-nio-8080-exec-4] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:29:31 [http-nio-8080-exec-4] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:29:36 [http-nio-8080-exec-7] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:29:36 [http-nio-8080-exec-7] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:29:36 [http-nio-8080-exec-7] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:29:36 [http-nio-8080-exec-7] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:29:36 [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:29:36 [http-nio-8080-exec-7] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:29:36 [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:29:58 [http-nio-8080-exec-9] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#customerLogin()
+ [DEBUG] 2021-07-182 18:29:58 [http-nio-8080-exec-10] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#customerLogin()
+ [INFO ] 2021-07-182 18:29:58 [http-nio-8080-exec-10] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:29:58 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:29:58 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:29:58 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:58 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:58 [http-nio-8080-exec-10] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:29:58 [http-nio-8080-exec-10] org.springframework.core.log.LogFormatUtils - GET "/customer/log-in", parameters={}
+ [DEBUG] 2021-07-182 18:29:58 [http-nio-8080-exec-10] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#customerLogin()
+ [INFO ] 2021-07-182 18:29:58 [http-nio-8080-exec-10] com.cts.bms.bmsapi.controller.LoginController - CUSTOMER LOGIN
+ [DEBUG] 2021-07-182 18:29:58 [http-nio-8080-exec-10] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:29:58 [http-nio-8080-exec-10] org.springframework.core.log.LogFormatUtils - Writing [{data=null, message=Login successfull, status=200}]
+ [DEBUG] 2021-07-182 18:29:58 [http-nio-8080-exec-10] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:29:58 [http-nio-8080-exec-1] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:58 [http-nio-8080-exec-1] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:29:58 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:29:59 [http-nio-8080-exec-1] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:29:59 [http-nio-8080-exec-1] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:29:59 [http-nio-8080-exec-1] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:29:59 [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:29:59 [http-nio-8080-exec-1] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:29:59 [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:30:03 [http-nio-8080-exec-2] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:30:03 [http-nio-8080-exec-2] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:30:03 [http-nio-8080-exec-2] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:30:03 [http-nio-8080-exec-2] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:30:03 [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:30:03 [http-nio-8080-exec-2] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:30:03 [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:30:05 [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:30:05 [http-nio-8080-exec-3] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:30:05 [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-3] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:30:05 [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:30:05 [http-nio-8080-exec-3] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:30:05 [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:30:05 [http-nio-8080-exec-5] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-5] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:30:05 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:05 [http-nio-8080-exec-5] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-5] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-5] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-5] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-5] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-5] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-5] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-5] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-5] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-5] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-5] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-6] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:30:06 [http-nio-8080-exec-6] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-6] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:30:06 [http-nio-8080-exec-6] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:30:07 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+ [DEBUG] 2021-07-182 18:30:07 [http-nio-8080-exec-7] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+ [DEBUG] 2021-07-182 18:30:20 [http-nio-8080-exec-9] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#customerLogin()
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-9] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:30:20 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-9] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-9] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:30:20 [http-nio-8080-exec-9] org.springframework.core.log.LogFormatUtils - GET "/customer/log-in", parameters={}
+ [DEBUG] 2021-07-182 18:30:20 [http-nio-8080-exec-9] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#customerLogin()
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-9] com.cts.bms.bmsapi.controller.LoginController - CUSTOMER LOGIN
+ [DEBUG] 2021-07-182 18:30:20 [http-nio-8080-exec-9] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:30:20 [http-nio-8080-exec-9] org.springframework.core.log.LogFormatUtils - Writing [{data=null, message=Login successfull, status=200}]
+ [DEBUG] 2021-07-182 18:30:20 [http-nio-8080-exec-9] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:30:20 [http-nio-8080-exec-10] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-10] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [ERROR] 2021-07-182 18:30:20 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.AdminDaoImpl - Incorrect result size: expected 1, actual 0
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:20 [http-nio-8080-exec-10] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:30:21 [http-nio-8080-exec-10] org.springframework.core.log.LogFormatUtils - GET "/customer/get-all-accounts/sd9", parameters={}
+ [DEBUG] 2021-07-182 18:30:21 [http-nio-8080-exec-10] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AccountController#getAllAccounts(String)
+ [INFO ] 2021-07-182 18:30:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.controller.AccountController - START
+ [INFO ] 2021-07-182 18:30:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.service.CustomerService - START
+ [INFO ] 2021-07-182 18:30:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.CustomerDaoImpl - START
+ [INFO ] 2021-07-182 18:30:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.dao.CustomerDaoImpl - END
+ [INFO ] 2021-07-182 18:30:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.service.CustomerService - END
+ [INFO ] 2021-07-182 18:30:21 [http-nio-8080-exec-10] com.cts.bms.bmsapi.controller.AccountController - END
+ [DEBUG] 2021-07-182 18:30:21 [http-nio-8080-exec-10] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:30:21 [http-nio-8080-exec-10] org.springframework.core.log.LogFormatUtils - Writing [{data=[Account [accNo=1000000005, accType=CURRENT, balance=529250.0, active=true, ifscCode=BOI123456 (truncated)...]
+ [DEBUG] 2021-07-182 18:30:21 [http-nio-8080-exec-10] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:30:37 [http-nio-8080-exec-2] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+ [DEBUG] 2021-07-182 18:30:37 [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-6] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-6] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-6] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-6] org.springframework.core.log.LogFormatUtils - GET "/admin/log-in", parameters={}
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.LoginController#adminLogin()
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-6] com.cts.bms.bmsapi.controller.LoginController - ADMIN LOGIN
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-6] org.springframework.core.log.LogFormatUtils - Writing [{data=null, message=Login successfull, status=200}]
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-6] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AdminController#getAllCustomers()
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-4] com.cts.bms.bmsapi.security.BmsUserDetailsService - START
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-4] com.cts.bms.bmsapi.security.BmsUserDetailsService - END
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-4] org.springframework.core.log.LogFormatUtils - GET "/admin/customer-list", parameters={}
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.cts.bms.bmsapi.controller.AdminController#getAllCustomers()
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-4] com.cts.bms.bmsapi.controller.AdminController - START
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-4] com.cts.bms.bmsapi.service.AdminService - GET ALL CUSTOMERS
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.AdminDaoImpl - START
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-4] com.cts.bms.bmsapi.dao.AdminDaoImpl - END
+ [INFO ] 2021-07-182 18:30:50 [http-nio-8080-exec-4] com.cts.bms.bmsapi.controller.AdminController - END
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-4] org.springframework.core.log.LogFormatUtils - Writing [{data=[Customer [userId=sd2, password=$2a$10$gdt5wMAghJVR62gUGjDzuOa1aodwhuQHzuGzl48zSEQdgH8A0LmFy,  (truncated)...]
+ [DEBUG] 2021-07-182 18:30:50 [http-nio-8080-exec-4] org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+ [INFO ] 2021-07-182 18:32:42 [main] org.springframework.test.context.support.AbstractTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.bms.bmsapi.BankManagementSystemApplicationTests], using SpringBootContextLoader
+ [INFO ] 2021-07-182 18:32:42 [main] org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.bms.bmsapi.BankManagementSystemApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+ [INFO ] 2021-07-182 18:32:42 [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.bms.bmsapi.BankManagementSystemApplicationTests]: BankManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ [INFO ] 2021-07-182 18:32:43 [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.bms.bmsapi.BankManagementSystemApplication for test class com.cts.bms.bmsapi.BankManagementSystemApplicationTests
+ [INFO ] 2021-07-182 18:32:43 [main] org.springframework.test.context.support.AbstractTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+ [INFO ] 2021-07-182 18:32:43 [main] org.springframework.test.context.support.AbstractTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@77663cd7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d17423f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5c70d7f0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@582dcd35, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e6bd263, org.springframework.test.context.support.DirtiesContextTestExecutionListener@394a6d2b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@635ff2a5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55adcf9e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1515f782, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@7f5ce33e, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@638afcaa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@58601e7a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@62735b13, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7aae1170, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ef5dd23, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@163e8949, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6eede35e]
+ [INFO ] 2021-07-182 18:32:44 [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+ [INFO ] 2021-07-182 18:32:45 [main] org.springframework.boot.StartupInfoLogger - Starting BankManagementSystemApplicationTests using Java 15.0.2 on sch with PID 6592 (started by USER in E:\final\bmsapi)
+ [INFO ] 2021-07-182 18:32:45 [main] org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+ [DEBUG] 2021-07-182 18:32:45 [main] org.springframework.context.support.AbstractApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a16d4dc
+ [DEBUG] 2021-07-182 18:32:56 [main] org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - 42 mappings in 'requestMappingHandlerMapping'
+ [DEBUG] 2021-07-182 18:32:57 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ [INFO ] 2021-07-182 18:32:57 [main] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a7e0d68, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c343088, org.springframework.security.web.header.HeaderWriterFilter@24f8ff82, org.springframework.web.filter.CorsFilter@11f8d64, org.springframework.security.web.authentication.logout.LogoutFilter@71de943f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@74a121fe, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7aead157, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@10f03ab0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53bf791, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e925a46, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d5b07e9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62a193e0, org.springframework.security.web.session.SessionManagementFilter@689504b1, org.springframework.security.web.access.ExceptionTranslationFilter@d3e9629, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6cad2d5f]
+ [DEBUG] 2021-07-182 18:32:58 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+ [DEBUG] 2021-07-182 18:32:58 [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+ [INFO ] 2021-07-182 18:32:59 [main] org.springframework.boot.StartupInfoLogger - Started BankManagementSystemApplicationTests in 14.929 seconds (JVM running for 22.107)
+ [DEBUG] 2021-07-182 18:33:01 [SpringApplicationShutdownHook] org.springframework.context.support.AbstractApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@2a16d4dc, started on Thu Jul 01 18:32:45 IST 2021
  

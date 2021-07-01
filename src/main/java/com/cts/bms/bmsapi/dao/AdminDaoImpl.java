@@ -33,11 +33,11 @@ public class AdminDaoImpl implements AdminDao {
 	private JdbcTemplate jdbcTemplate;
 
 	@Override
-	public Admin loadAdmin(String username) {
+	public Admin loadAdmin(String empId) {
 		LOGGER.info("START");
 		String query = "select * from admin where emp_id = ?";
 		try {
-			Admin admin = jdbcTemplate.queryForObject(query, new AdminMapper(), new Object[] { username });
+			Admin admin = jdbcTemplate.queryForObject(query, new AdminMapper(), new Object[] { empId });
 			LOGGER.info("END");
 			return admin;
 		} catch (DataAccessException e) {
